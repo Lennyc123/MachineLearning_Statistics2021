@@ -1,0 +1,28 @@
+## Running the project files
+The programming language of Python was utilised for this project.  
+
+For ease of access I would recommend installing Python using the Anaconda distribution.  
+
+### The following packages are required in order to successfully run this project.
+
+* Jupyter (Jupyter lab/jupyter notebook)
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* SciPy
+* Statsmodels
+
+If utilising Anaconda these packages can be installed by entering the following code within the Anaconda prompt:  
+
+conda install (insert package name) 
+
+
+## Regarding the Datasets
+The datasets that come preloaded with scikit-learn were analysed throughout this project i.e., the toy datasets. *See sample code below*.
+
+```python
+#Importing our dataset for regression
+from sklearn.datasets import load_diabetes
+```
